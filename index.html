@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="header col-md-4 text-center mx-auto my-3 py-2 px-1">
+        <h1>CrystalsCollector!</h1>
+      </div>
+      <div class="col-1"></div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="randomNumber col-md-2 mx-2 text-center">
+        <label for="number">
+          <h5>Your Target</h5>
+        </label>
+        <div class="size number col-12 text-center">0</div>
+      </div>
+      <div class="yourNumber col-md-2 mx-2 text-center">
+        <label for="score">
+          <h5>Your total score</h5>
+        </label>
+        <div class="size score col-12 text-center">0</div>
+      </div>
+    </div>
+  
+    <div class="winnerLoser row d-flex justify-content-center">
+      <div class="lost col-md-2 text-center mx-2">
+        <label for="losses">
+          <h5>Losses</h5>
+        </label>
+        <div class="size losses col-12 text-center">0</div>
+      </div>
+      <div class="winner col-md-4 d-flex justify-content-center align-items-center my-2 "></div>
+      <div class="won col-md-2 text-center mx-2">
+        <label for="wins text-center">
+          <h5>Wins</h5>
+        </label>
+        <div class="size wins col-12 text-center">0</div>
+      </div>
+    </div>
+
+    <div class="crystal-container row my-2 d-flex justify-content-center">
+
+      <div class="crystal col-md-6 my-2 d-flex justify-content-around">
+        <img src="./images/blue.jpg" id="blue" />
+        <img src="./images/green.jpg" id="green" />
+        <img src="./images/red.jpg" id="red" />
+        <img src="./images/yellow.jpg" id="yellow" />
+      </div>
+
+    </div>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

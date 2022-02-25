@@ -1,0 +1,48 @@
+body {
+  overflow: hidden;
+  background-image: url(./images/screen1.jpg);
+  background-position: center;
+}
+.header{
+  background-color: #456e8a;
+}
+
+.header h1{
+color: #fff;
+font-size: 1.8rem;
+}
+
+.randomNumber, .yourNumber{
+  border: 0.2rem solid black;
+  background-color: #456e8a;
+  color: #fff;
+}
+
+.lost{
+  border: 0.2rem solid black;
+  background-color: #fff;
+}
+
+.winner{
+
+  font-size: 2.5rem;
+}
+
+.won{
+  border: 0.2rem solid black;
+  background-color: #fff;
+  color: black;
+}
+
+label{
+font-size: 1.3rem;
+}
+.size{
+  font-size: 3rem;
+}
+
+.crystal img{
+  margin: auto;
+  width: 24%; 
+  height: 9rem;
+}
